@@ -12,7 +12,7 @@ To achieve this, NightTurtle integrates the following projects:
 
 - Hartk's [Dual Nightwatch](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch): a compact dual Bowden extruder based on the Voron Nightwatch
 - Hartk's [Bowden Y-Splitter](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch/STLs/Bowden_Y)
-- [Filamentalist Rewinder](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder) from the Enraged Rabbit Community
+- [Filamentalist Rewinder - 80mm Axle](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder) from the Enraged Rabbit Community
 - Fysetc [ERB 2.0 MCU](https://github.com/FYSETC/FYSETC-ERB/tree/main/V2.0)
 - Annex Engineering's [Belay](https://github.com/Annex-Engineering/Belay) Extruder Sync Sensor
 
@@ -42,7 +42,7 @@ All parts have been pre-oriented for support-free printing or include integrated
 - Solid top/bottom layers: 5
 - Supports: **NONE**
 
-To correctly print the honeycomb pattern, split the skirt STL into separate objects in your Slicer and set the type to 'Modifier' for the inlay/mesh modifier part. Configure the modifier settings as follows for optimal print results:
+The skirts have been provided as 3MF files with the correct settings applied for PrusaSlicer. However, if your slicer does not support importing these settings, open the 3MF in geometry-only mode and change the type of the inlay/mesh modifier part to 'Modifier'. Then, configure the modifier settings as follows for optimal print results:
 
 ![2](./Images/prusa-modifier-settings.png)
 
@@ -56,28 +56,47 @@ Please refer to the [Bill of Materials](./BOM.md) for a list of parts needed for
 2. Install 4 heatset inserts into the top of the base plate pillars.
 3. Install 4 heatset inserts into Dual Nightwatch mounting holes.
 4. Install 2 heatset inserts into the filament splitter mount.
-5. Install 3 heatset inserts into MCU mounting posts.
+5. Install 4 heatset inserts into MCU mounting holes.
 6. Install 4 heatset inserts into the top panel:
    1. Either into the 4 mounting points for Filamentalist Rewinders.
    2. Or into the 4 knobs for the backpack top panel.
-7. Remove the integrated support from the XT30 2+2 connector opening in the base plate.
-8. Install the ERB 2.0 MCU into the base plate.
-9. Install the blank skirt on the side with the MCU.
-10. Install the 40mm axial fan (10-20mm depth verified) into the fan skirt and mount it to the opposite side of the MCU.
-11. Install the Dual Nightwatch onto the base plate.
-12. Install two ECAS connectors into the skirt with filament inlets; be mindful of force to avoid damaging the honeycomb pattern.
-13. Install the filament inlet skirt in the base plate; feed in PTFE tube from outside until securely seated in the Dual Nightwatch.
-14. Install the filament splitter mount; route the Belay tension sensor cable/connector outside through the mount.
-15. Assemble the filament splitter; connect it to the Dual Nightwatch using two PTFE tube lengths. Adjust tube length for flush mounting.
-16. Attach the skirt with the filament outlet to the base plate.
-17. Install 10x3 countersunk magnets into the base plate and top panel. Monitor screw length to avoid damaging prints.
+7. Install 8 heatset inserts into the bottom side of the corners
+8. Assemble the corners and the base plate - pay attention to where the corners go
+   1. Drop a M5 hexnut into the recess in the base plate
+   2. Join the base plate, foot and corner parts using M3x12 SHCS screws
+   3. Install the rubber foot using an M5x16 or M5x20 screw. Use a washer if needed to not pierce the corner top surface.
+9. Remove the integrated support from the connector openings in the corners.
+10. Install the MCU Base plate between the two right corners
+11. Install the ERB 2.0 MCU into the base plate. The M3 screws thread into the plastic.
+12. Install the blank skirt on the side with the MCU.
+13. Install the 40mm axial fan (10-20mm depth verified) into the fan skirt and mount it to the opposite side of the MCU.
+14. Install the Dual Nightwatch onto the base plate.
+15. Install two ECAS connectors into the skirt with filament inlets; be mindful of force to avoid damaging the honeycomb pattern.
+16. Install the filament inlet skirt in the base plate; feed in PTFE tube from outside until securely seated in the Dual Nightwatch.
+17. Install the filament splitter mount; route the Belay tension sensor cable/connector outside through the mount.
+18. Assemble the filament splitter; connect it to the Dual Nightwatch using two PTFE tube lengths. Adjust tube length for flush mounting.
+19. Attach the skirt with the filament outlet to the base plate.
+20. Install 10x3 countersunk magnets into the base plate and top panel. Monitor screw length to avoid damaging prints.
     Note: For 2.6mm magnets, use M3 washers as shims.
-18. If using spool holders, mount them with 4 FHCS screws from the top panel's bottom and 4 SHCS screws into heatset inserts.
-19. Finally, wire up the XT30 2+2 connector and test everything before installing it into the base plate.
+21. If using spool holders, mount them with 4 FHCS screws from the top panel's bottom and 4 SHCS screws into heatset inserts.
+22. Finally, wire up the XT30 2+2 connector and test everything before installing it into the base plate.
 
 ## Images
 
 Soon(tm)
+
+## Changelog
+
+- 2024-10-07 NightTurtle Alpha.2 (Brawny Beaver)
+  - Bill of Materials added
+  - Increased height of enclosure by 4mm
+  - Revised MCU mount to add support for BTT MMB 1.0 MCU
+  - Added the option to use compressor feet
+  - Updated to the latest dual nightwatch release (v16)
+  - Moved MCU connectors to the back by default
+    - Optional corners are provided to use XT30 2+2 or MicroFit 3.0 for the MCU connection
+    - Optional corners to keep the MCU connection in the front corner (for backpack style use)
+- 2024-09-25 NightTurtle Alpha.1 (Ambitious Alpaca)
 
 ## License
 
