@@ -1,34 +1,67 @@
-# NightTurtle: Integrated Dual Spool Filament Switching System
+# NightOwl: Integrated Dual Spool Filament Switching System
 
-NightTurtle is an enclosure that integrates multiple projects' technologies into a dual-spool filament switching system.
+NightOwl is an enclosure that integrates multiple projects' technologies into a dual-spool filament switching system.
 
-![1](./Images/nightturtle-render.png)
+![1](./Images/nightowl-render.png)
 
 ## Summary
 
-The goal of the NightTurtle enclosure is to create a simple, universal filament switching solution that accommodates two primary usage styles: standalone units with integrated rewinding filament spool holders, or backpack-style units mountable to a printer, fed from separate spool rollers. A secondary objective was to design a mostly self-contained setup requiring only a 24V power supply and either a USB or CAN connection.
+The goal of the NightOwl enclosure is to create a simple, universal filament switching solution that accommodates two primary usage styles: standalone units with integrated rewinding filament spool holders, or backpack-style units mountable to a printer, fed from separate spool rollers. A secondary objective was to design a mostly self-contained setup requiring only a 24V power supply and either a USB or CAN connection.
 
-To achieve this, NightTurtle integrates the following projects:
+To achieve this, NightOwl integrates the following projects:
 
 - Hartk's [Dual Nightwatch](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch): a compact dual Bowden extruder based on the Voron Nightwatch
 - Hartk's [Bowden Y-Splitter](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch/STLs/Bowden_Y)
 - [Filamentalist Rewinder - 80mm Axle](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder) from the Enraged Rabbit Community
 - Fysetc [ERB 2.0 MCU](https://github.com/FYSETC/FYSETC-ERB/tree/main/V2.0)
 - Annex Engineering's [Belay](https://github.com/Annex-Engineering/Belay) Extruder Sync Sensor
+  - The [ERCF Filament Stress Sensor](https://www.printables.com/refresh?redirectUrl=%2Fmodel%2F803180-voron-ercf-filament-stress-sensor) is also compatible.
 
-Alternatively, the [ERCF Filament Stress Sensor](https://www.printables.com/refresh?redirectUrl=%2Fmodel%2F803180-voron-ercf-filament-stress-sensor) is also compatible.
+Besides these parts you'll also want an extruder that has both a toolhead and an entry sensor. Some options for this are:
+
+- [Clockwork 2](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Toolhead_Modifications/Stls)
+- [WristWatch G2](https://github.com/bythorsthunder/Voron_Mods/tree/main/Wristwatch_G2_Dual_Filament_Sensor/STLs)
 
 ## Printing
 
-Print the following components:
+Print the following components for the NightOwl.
 
-- Base plate
-- Filament mount
-- Skirt files (all)
+- 1x Base plate
+- 3x Blank Corner
+- 1x Connector Corner
+- 1x Connector Insert for your choice of connectors
+- 1x Top Plate of choice (80mm Filamentalist or Backpack )
+- 1x Y-Splitter Mount
+- 4x Skirts
+  - Front
+  - Back
+  - Left
+  - Right
+- 4x Feet (if using the Filamentalist top)
+- 4x Knobs (if using the Backpack top)
 
-Additionally, select and print the top plate suitable for your specific use case.
+## Other parts to print
 
-Note: The knobs are only necessary when using the backpack top panel.
+- [Dual Nightwatch](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch/STLs/Dual_Nightwatch)
+  - Use the 2-part guidler, it has proven more reliable than the single piece guidler
+  - Prefer the mid body with collets for improved reliability
+- [Y-Splitter](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch/STLs/Bowden_Y)
+  - Only print the mid body and the rear cover
+- [Filamentalist](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder)
+  Print these parts per Rewinder:
+  - 1x Right Support
+  - 1x Left Support
+  - 1x Base Plate (80mm)
+  - 1x Idler Roller Axle (80mm) 
+  - 2x Rim Roller (80mm)
+  - 1x Center Drive Roller
+  - 2x CDR Spacer
+  - 1x Tensioner Arm Left
+  - 1x Tensioner Arm Right
+  - 1x Tensioner Mount (80mm)
+  - 1x Idler Roller (male - 80mm)
+  - 1x Idler Roller (female - 80mm)
+  - 1x Axle Depth Tool (80mm)
 
 ### Print Settings
 
@@ -56,12 +89,12 @@ Please refer to the [Bill of Materials](./BOM.md) for a list of parts needed for
 2. Install 4 heatset inserts into the top of the base plate pillars.
 3. Install 4 heatset inserts into Dual Nightwatch mounting holes.
 4. Install 2 heatset inserts into the filament splitter mount.
-5. Install 4 heatset inserts into MCU mounting holes.
+5. Install 4 heatset inserts into MCU mounting holes (CI corner and the CB corner below it)
 6. Install 4 heatset inserts into the top panel:
    1. Either into the 4 mounting points for Filamentalist Rewinders.
    2. Or into the 4 knobs for the backpack top panel.
 7. Install 8 heatset inserts into the bottom side of the corners
-8. Assemble the corners and the base plate - pay attention to where the corners go
+8. Assemble the corners and the base plate - pay attention to where the corners go (CB / CI markers)
    1. Drop a M5 hexnut into the recess in the base plate
    2. Join the base plate, foot and corner parts using M3x12 SHCS screws
    3. Install the rubber foot using an M5x16 or M5x20 screw. Use a washer if needed to not pierce the corner top surface.
@@ -87,7 +120,15 @@ Soon(tm)
 
 ## Changelog
 
-- 2024-10-07 NightTurtle Alpha.2 (Brawny Beaver)
+- 2024-10-18 NightOwl Beta.1 (Crafty Crow)
+  - Simplified the corners
+    - Switch to an insert base approach for connectors
+    - Single blank corner with universal mounting holes
+    - Moved all connectors to the "back"
+  - Added markers to the bottom plate where the various corners go
+  - Added hints to parts printing for Nightwatch and Y-Splitter
+  - Updated Bill of Materials with more sourcing links
+- 2024-10-07 NightOwl Alpha.2 (Brawny Beaver)
   - Bill of Materials added
   - Increased height of enclosure by 4mm
   - Revised MCU mount to add support for BTT MMB 1.0 MCU
@@ -96,7 +137,7 @@ Soon(tm)
   - Moved MCU connectors to the back by default
     - Optional corners are provided to use XT30 2+2 or MicroFit 3.0 for the MCU connection
     - Optional corners to keep the MCU connection in the front corner (for backpack style use)
-- 2024-09-25 NightTurtle Alpha.1 (Ambitious Alpaca)
+- 2024-09-25 NightOwl Alpha.1 (Ambitious Alpaca)
 
 ## License
 

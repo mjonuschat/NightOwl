@@ -1,6 +1,6 @@
 # BOM (beta.1)
 
-## NightTurtle Enclosure
+## NightOwl Enclosure
 
 Item | Qty | Notes
 --- | --- | ---
