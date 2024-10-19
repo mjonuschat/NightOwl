@@ -22,7 +22,7 @@ Molex Microfit 436450400 | 1 | 2 if not using XT30 2+2 - https://www.digikey.com
 ST-Fan Screw | 4 | https://www.aliexpress.us/item/3256801122413512.html
 ECAS04 Bowden Collet | 2 | https://www.aliexpress.us/item/3256805436525602.html
 AMass XT30 2+2 (Male) | 1 | https://www.aliexpress.us/item/3256805194254798.html
-AMass XT30 2+2 (Femail) | 1 | https://www.aliexpress.us/item/3256805194254798.html
+AMass XT30 2+2 (Female) | 1 | https://www.aliexpress.us/item/3256805194254798.html
 Fysetc ERB 2.0 | 1 | https://www.aliexpress.us/item/3256807024596241.html
 
 ## Filamentalist Rewinder (80mm)
