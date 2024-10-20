@@ -14,7 +14,7 @@ M3x10 SHCS | 4 | [AliExpress](https://www.aliexpress.us/item/2251832624557792.ht
 M3x12 SHCS | 12 | [AliExpress](https://www.aliexpress.us/item/2251832624557792.html)
 M5x20 BHCS | 4 | [AliExpress](https://www.aliexpress.us/item/2251832624537980.html)
 M5 Hexnut | 4 | [AliExpress](https://www.aliexpress.us/item/2251832681933100.html)
-Rubber Comressor Foot | 4 | [AliExpress](https://www.aliexpress.us/item/3256801282730627.html)
+Rubber Compressor Foot | 4 | [AliExpress](https://www.aliexpress.us/item/3256801282730627.html)
 Countersunk 10x3mm Magnet | 8 | [Amazon - 3mm](https://www.amazon.com/dp/B0788Z23ZY) - [Amazon - 2.6mm](https://www.amazon.com/gp/product/B09ZLFNZ4S)
 Molex Microfit 436400400 | 1 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0436400400/268981)
 Molex Microfit 436450400 | 1 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0436450400/268976)
