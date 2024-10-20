@@ -52,7 +52,7 @@ Print the following components for the NightOwl.
   - 1x Right Support
   - 1x Left Support
   - 1x Base Plate (80mm)
-  - 1x Idler Roller Axle (80mm) 
+  - 1x Idler Roller Axle (80mm)
   - 2x Rim Roller (80mm)
   - 1x Center Drive Roller
   - 2x CDR Spacer
@@ -117,6 +117,10 @@ Please refer to the [Bill of Materials](./BOM.md) for a list of parts needed for
 ## Images
 
 Soon(tm)
+
+## Acknowledgements
+
+The NightOwl project builds upon open-source innovations, drawing inspiration from the [BoxTurtle](https://github.com/ArmoredTurtle) project. While influenced by BoxTurtle's design philosophy, NightOwl distinguishes itself through deliberate design choices: minimal footprint, dual-channel limitation and leveraging off-the-shelf components.
 
 ## Changelog
 
