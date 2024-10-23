@@ -15,7 +15,9 @@ To achieve this, NightOwl integrates the following projects:
 - [Filamentalist Rewinder - 80mm Axle](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder) from the Enraged Rabbit Community
 - Fysetc [ERB 2.0 MCU](https://github.com/FYSETC/FYSETC-ERB/tree/main/V2.0)
 - Annex Engineering's [Belay](https://github.com/Annex-Engineering/Belay) Extruder Sync Sensor
-  - The [ERCF Filament Stress Sensor](https://www.printables.com/refresh?redirectUrl=%2Fmodel%2F803180-voron-ercf-filament-stress-sensor) is also compatible.
+  Alternatives:
+  - [TurtleNeck](https://github.com/ArmoredTurtle/TurtleNeck) syncing toolhead buffer
+  - The [ERCF Filament Stress Sensor](https://www.printables.com/model/803180-voron-ercf-filament-stress-sensor)
 
 Besides these parts you'll also want an extruder that has both a toolhead and an entry sensor. Some options for this are:
 
