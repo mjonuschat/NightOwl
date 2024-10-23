@@ -15,7 +15,7 @@ M3x12 SHCS | 12 | [AliExpress](https://www.aliexpress.us/item/2251832624557792.h
 M5x20 BHCS | 4 | [AliExpress](https://www.aliexpress.us/item/2251832624537980.html)
 M5 Hexnut | 4 | [AliExpress](https://www.aliexpress.us/item/2251832681933100.html)
 Rubber Compressor Foot | 4 | [AliExpress](https://www.aliexpress.us/item/3256801282730627.html)
-Countersunk 10x3mm Magnet | 8 | [Amazon - 3mm](https://www.amazon.com/dp/B0788Z23ZY) - [Amazon - 2.6mm](https://www.amazon.com/gp/product/B09ZLFNZ4S)
+Countersunk 10x3mm Magnet | 8 | [Amazon - 3mm](https://www.amazon.com/dp/B0788Z23ZY) - [Amazon - 2.6mm](https://www.amazon.com/gp/product/B09ZLFNZ4S) - [JC Magnetics](https://jc-magnetics.com/Magnet-N52-10mm-3mm-Hole-3mm-Countersunk-Ring)
 Molex Microfit 436400400 | 1 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0436400400/268981)
 Molex Microfit 436450400 | 1 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0436450400/268976)
 4010 Axial Fan | 1 | [AliExpress](https://www.aliexpress.us/item/2251832541552769.html)
@@ -27,7 +27,7 @@ Fysetc ERB 2.0 | 1 | [AliExpress](https://www.aliexpress.us/item/325680702459624
 
 ### Notes
 
-- Countersunk Magnets: You'll need 4 each per orientation so that they attract with the countersunk sides
+- Countersunk Magnets: You'll need 4 each per polarity so that they attract with the countersunk sides
 - Connectors: You can replace the XT30 2+2 connectors with a second set of Molex Micro-Fit 3.0
 
 ## Filamentalist Rewinder (80mm)
