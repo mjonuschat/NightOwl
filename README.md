@@ -108,13 +108,14 @@ Please refer to the [Bill of Materials](./BOM.md) for a list of parts needed for
 14. Install the Dual Nightwatch onto the base plate.
 15. Install two ECAS connectors into the skirt with filament inlets; be mindful of force to avoid damaging the honeycomb pattern.
 16. Install the filament inlet skirt in the base plate; feed in PTFE tube from outside until securely seated in the Dual Nightwatch.
-17. Install the filament splitter mount; route the Belay tension sensor cable/connector outside through the mount.
+17. Install the filament splitter mount
 18. Assemble the filament splitter; connect it to the Dual Nightwatch using two PTFE tube lengths. Adjust tube length for flush mounting.
 19. Attach the skirt with the filament outlet to the base plate.
 20. Install 10x3 countersunk magnets into the base plate and top panel. Monitor screw length to avoid damaging prints.
     Note: For 2.6mm magnets, use M3 washers as shims.
 21. If using spool holders, mount them with 4 FHCS screws from the top panel's bottom and 4 SHCS screws into heatset inserts.
-22. Finally, wire up the XT30 2+2 connector and test everything before installing it into the base plate.
+22. Install the cable for the filament tension sensor (Belay) into the connector insert and install it into the corner mount.
+23. Finally, wire up the XT30 2+2 connector and test everything before installing it into the base plate.
 
 ## Images
 
