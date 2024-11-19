@@ -40,6 +40,8 @@ Item | Qty | Notes
 
 ## Miscellaneous Bits & Pieces
 
-Item | Qty | Notes
---- | --- | ---
-KW10 Microswitch (D2F compatible) | 6 | [AliExpress](https://www.aliexpress.us/item/3256806868797694.html)
+These are sourcing links for known good components used by some of the incorporated projects. For quantities check the respective BOM documents.
+
+Item | Notes
+---  | ---
+KW10 Microswitch (D2F compatible) | [AliExpress](https://www.aliexpress.us/item/3256806868797694.html)
