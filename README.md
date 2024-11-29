@@ -98,6 +98,15 @@ The NightOwl project builds upon open-source innovations, drawing inspiration fr
 
 ## Changelog
 
+- 2024-11-29 NightOwl RC.1 (Derpy Dingo)
+  - Included customized Filamentalist Parts
+    - Parameters adjusted to allow for up to 74mm wide spools (instead of 68mm) with identical hardware.
+  - Updated top panel to match the Filamentalist rewinders
+  - Correctly tagged connector inserts with accent color
+  - Fixed undersized hole in bottom panel
+  - Fixed various quantities in the BOM
+  - Made dual Micro-Fit connectors the recommended option
+  - TurtleNeck is the default recommended filament tension sensor
 - 2024-10-18 NightOwl Beta.1 (Crafty Crow)
   - Simplified the corners
     - Switch to an insert base approach for connectors
