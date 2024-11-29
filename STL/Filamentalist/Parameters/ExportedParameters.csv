@@ -1,0 +1,13 @@
+Name,Unit,Expression,Value,Comments,Favorite
+Axle_Length,mm,Spool_Width_Max + max(( 2 * Axle_Under_Over_Hang ); -11.5 mm) + ( 2 * ( 3 + 1.25 + 2.5 ) ) * 1 mm,80.00,REFERENCE - DO NOT MODIFY!  8mm Steel Axle Length,false
+Spool_Width_Max,mm,74 mm,74.00,Maximum Width of Spool to be Used - Adjust to your desired max and maybe add a couple millimeters.,false
+Spool_Width_Min,mm,34 mm,34.00,"Min. Width of Spool to be Used (34mm is min to have clearance for Tensioner Arms). A larger number will save material if you don't use narrow spools (i.e. 0.25kg).",false
+Min_Spool_Rim_Thickness,mm,3 mm,3.00,Adjust for the thickest rim of the narrowest spool.  Only important if you are trying to squeeze narrow spools onto the rewinder.,false
+Axle_Under_Over_Hang,mm,-3.75 mm,-3.75,"Adjust degree of axle protrusion (positive) or inset (negative, must be >=-5.5) from the rewinder footprint for a standard axle length (if needed). ",false
+Rim_Roller_Width,mm,40.00 mm - 11.00 mm,29.00,REFERENCE - DO NOT MODIFY!,false
+CDR_Spacer_Width,mm,4.65 mm,4.65,REFERENCE - DO NOT MODIFY!,false
+Idler_Roller_Width,mm,2 * 40.00 mm,80.00,REFERENCE - DO NOT MODIFY!,false
+Idler_Roller_Axle_Width,mm,2 * 41.25 mm,82.50,REFERENCE - DO NOT MODIFY!,false
+Base_Plate,mm,87.50 mm,87.50,REFERENCE - DO NOT MODIFY! Total rewinder width.,false
+Tensioner_Mount_Width,mm,2 * 41.25 mm,82.50,REFERENCE - DO NOT MODIFY!,false
+Roller_Face_Width,mm,( Spool_Width_Max - Spool_Width_Min + 2 * Min_Spool_Rim_Thickness ) / 2,23.00,REFERENCE! - DO NOT MODIFY! Stretched rubber band(s) total required width.,false
