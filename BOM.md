@@ -23,6 +23,7 @@ Molex Microfit 436450400 | 2 | [DigiKey](https://www.digikey.com/en/products/det
 ST-Fan Screw | 4 | [AliExpress](https://www.aliexpress.us/item/3256801122413512.html)
 ECAS04 Bowden Collet | 2 | [AliExpress](https://www.aliexpress.us/item/3256805436525602.html)
 Fysetc ERB 2.0 | 1 | [AliExpress](https://www.aliexpress.us/item/3256807024596241.html)
+PTFE Tube (2.5mm/4mm) | 1m | [AliExpress](https://www.aliexpress.us/item/3256807251789429.html)
 
 ### Notes
 
