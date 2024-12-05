@@ -14,6 +14,7 @@ M3x12 SHCS | 8 | [AliExpress](https://www.aliexpress.us/item/2251832624557792.ht
 M3x16 SHCS | 2 | [AliExpress](https://www.aliexpress.us/item/2251832624557792.html)
 M5x20 BHCS | 4 | [AliExpress](https://www.aliexpress.us/item/2251832624537980.html)
 M5 Hexnut | 4 | [AliExpress](https://www.aliexpress.us/item/2251832681933100.html)
+M5 Washer | 4 | [AliExpress](https://www.aliexpress.us/item/3256802114850018.html)
 Rubber Compressor Foot | 4 | [AliExpress](https://www.aliexpress.us/item/3256801282730627.html)
 Countersunk 10x3mm Magnet | 8 | [Amazon - 3mm](https://www.amazon.com/dp/B0788Z23ZY)  - [Amazon - 2.6mm](https://www.amazon.com/gp/product/B09ZLFNZ4S) - [JC Magnetics](https://jc-magnetics.com/Magnet-N52-10mm-3mm-Hole-3mm-Countersunk-Ring)<br/>4 each per polarity so that they attract with the countersunk sides. Amazon packs come with a mix of polarities
 Molex Microfit 436400400 | 2 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0436400400/268981)
