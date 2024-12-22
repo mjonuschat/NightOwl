@@ -47,11 +47,11 @@ Print the following components for the NightOwl.
 - [Y-Splitter](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch/STLs/Bowden_Y)
   - Only print the mid body and the rear cover
 - [Filamentalist](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder)
-  Print these parts per Rewinder:
+  **Please use the files in the NightOwl repository, they are adjusted to fit slightly larger spools.** Print these parts per Rewinder:
   - 1x Right Support
   - 1x Left Support
   - 1x Base Plate (80mm)
-  - 1x Idler Roller Axle (80mm)
+  - 1x Idler Roller Axle (80mm)     xxxxx
   - 2x Rim Roller (80mm)
   - 1x Center Drive Roller
   - 2x CDR Spacer
