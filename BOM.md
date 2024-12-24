@@ -19,6 +19,8 @@ Rubber Compressor Foot | 4 | [AliExpress](https://www.aliexpress.us/item/3256801
 Countersunk 10x3mm Magnet | 8 | [Amazon - 3mm](https://www.amazon.com/dp/B0788Z23ZY)  - [Amazon - 2.6mm](https://www.amazon.com/gp/product/B09ZLFNZ4S) - [JC Magnetics](https://jc-magnetics.com/Magnet-N52-10mm-3mm-Hole-3mm-Countersunk-Ring)<br/>4 each per polarity so that they attract with the countersunk sides. Amazon packs come with a mix of polarities
 Molex Microfit 436400400 | 2 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0436400400/268981)
 Molex Microfit 436450400 | 2 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0436450400/268976)
+Molex Microfit Female Pin 430300007 | 8 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0430300007/252479)
+Molex Microfit Male Pin 430310007 | 8 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0430310007/252483)
 4010 Axial Fan | 1 | [AliExpress](https://www.aliexpress.us/item/2251832541552769.html)
 ST-Fan Screw | 4 | [AliExpress](https://www.aliexpress.us/item/3256801122413512.html)
 ECAS04 Bowden Collet | 2 | [AliExpress](https://www.aliexpress.us/item/3256805436525602.html)
