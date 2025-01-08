@@ -86,6 +86,8 @@ The NightOwl project builds upon open-source innovations, drawing inspiration fr
 
 ## Changelog
 
+- 2025-01-07 NightOwl RC.2 (Ethereal Elk)
+  - Changed corners and top plates to use standard 6x3mm magnets
 - 2024-11-29 NightOwl RC.1 (Derpy Dingo)
   - Included customized Filamentalist Parts
     - Parameters adjusted to allow for up to 74mm wide spools (instead of 68mm) with identical hardware.
