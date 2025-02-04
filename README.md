@@ -86,6 +86,8 @@ The NightOwl project builds upon open-source innovations, drawing inspiration fr
 
 ## Changelog
 
+- 2025-02-03 NightOwl 1.0 (Flamboyant Flamingo)
+  - Update front skirt (removed ECAS couplers)
 - 2025-01-07 NightOwl RC.2 (Ethereal Elk)
   - Changed corners and top plates to use standard 6x3mm magnets
 - 2024-11-29 NightOwl RC.1 (Derpy Dingo)
