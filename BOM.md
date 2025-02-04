@@ -22,13 +22,11 @@ Molex Microfit Female Pin 430300007 | 8 | [DigiKey](https://www.digikey.com/en/p
 Molex Microfit Male Pin 430310007 | 8 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0430310007/252483)
 4010 Axial Fan | 1 | [AliExpress](https://www.aliexpress.us/item/2251832541552769.html)
 ST-Fan Screw | 4 | [AliExpress](https://www.aliexpress.us/item/3256801122413512.html)
-ECAS04 Bowden Collet | 2 | [AliExpress](https://www.aliexpress.us/item/3256805436525602.html)
 Fysetc ERB 2.0 | 1 | [AliExpress](https://www.aliexpress.us/item/3256807024596241.html)
 PTFE Tube (2.5mm/4mm) | 1m | [AliExpress](https://www.aliexpress.us/item/3256807251789429.html)
 
 ### Notes
 
-- Countersunk Magnets: You'll need 4 each per polarity so that they attract with the countersunk sides
 - Connectors: You can replace one pair of Micro-Fit 3.0 connectors with a set of AMass XT30 2+2 connectors to make using prefabricated CAN cables easier.
 
 ## Filamentalist Rewinder (80mm)
