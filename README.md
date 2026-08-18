@@ -11,7 +11,7 @@ The goal of the NightOwl enclosure is to create a simple, universal filament swi
 To achieve this, NightOwl integrates the following projects:
 
 - Hartk's [Dual Nightwatch](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch): a compact dual Bowden extruder based on the Voron Nightwatch
-- Hartk's [Bowden Y-Splitter](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch/STLs/Bowden_Y)
+- [Sensored Y-Splitter/Hub](./Mods/D2F%20Hub/STL/NightOwl_Sensed_Hub_D2F.stl)
 - [Filamentalist Rewinder - 80mm Axle](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder) from the Enraged Rabbit Community
 - Fysetc [ERB 2.0 MCU](https://github.com/FYSETC/FYSETC-ERB/tree/main/V2.0)
 - ArmoredTurtle's [TurtleNeck](https://github.com/ArmoredTurtle/TurtleNeck) syncing toolhead buffer
@@ -44,8 +44,7 @@ Print the following components for the NightOwl.
 - [Dual Nightwatch](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch/STLs/Dual_Nightwatch)
   - Use the 2-part guidler, it has proven more reliable than the single piece guidler
   - Prefer the mid body with collets for improved reliability
-- [Y-Splitter](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Extruders/Dual_Nightwatch/STLs/Bowden_Y)
-  - Only print the mid body and the rear cover
+- [Sensored Hub](./Mods/D2F%20Hub/STL/NightOwl_Sensed_Hub_D2F.stl)
 - [Filamentalist](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder)
   - Please use the files provided [in this repository](./STL/Filamentalist/), they are adjusted to fit slightly wider spools.
     Files in the directory are following the naming conventions in the manual and will yield the required two rewinders.
@@ -74,7 +73,7 @@ Please refer to the [Bill of Materials](./BOM.md) for a list of parts needed for
 
 ### Assembly Instructions
 
-The [Assembly Manual](./Manual/Assembly%20Manual.pdf) provides detailed, step-by-step instructions for assembling your NightOwl.
+The [Assembly Manual](./Manual/NightOwl%20Assembly%20Manual.pdf) provides detailed, step-by-step instructions for assembling your NightOwl.
 
 ## Images
 
@@ -86,6 +85,11 @@ The NightOwl project builds upon open-source innovations, drawing inspiration fr
 
 ## Changelog
 
+- 2026-08-18 Documentation Updates
+  - Added wiring diagrams for ERB 2.0
+  - Updated pin-out to match AFC default config
+  - Made the sensored hub the default choice
+  - Removed the vendored macros/example config — AFC usage is now recommended
 - 2025-02-03 NightOwl 1.0 (Flamboyant Flamingo)
   - Update front skirt (removed ECAS couplers)
 - 2025-01-07 NightOwl RC.2 (Ethereal Elk)
