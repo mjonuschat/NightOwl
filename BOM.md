@@ -44,3 +44,4 @@ These are sourcing links for known good components used by some of the incorpora
 Item | Notes
 ---  | ---
 KW10 Microswitch (D2F compatible) | [AliExpress](https://www.aliexpress.us/item/3256806868797694.html)
+5.5mm Ball Bearing Balls | [Amazon](https://www.amazon.com/gp/product/B078T81JK3)
